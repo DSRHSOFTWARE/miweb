@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title >buscar</title>
+</head>
+<body>
+
+<div class="container py-4">
+
+		<div class="card bg-light">
+			<div class="card-header" th:text="${titulo}"></div>
+			<div class="card-body">
+			
+			<ul class="list-group">
+					<li class="list-group-item" th:text="${usuario.nombre}"></li>
+					<li class="list-group-item" th:text="${usuario.libro}"></li>
+					<li class="list-group-item" th:text="${usuario.cantidad}"></li>
+					<li class="list-group-item" th:text="${usuario.fechaNacimiento}"></li>
+				</ul>
+				</div>
+				</div>
+				</div>
+			
+</body>
+</html>

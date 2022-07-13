@@ -1,0 +1,3 @@
+INSERT INTO bibliotecas (id, nombre, libro, cantidad, fecha_nacimiento, fecha_registro) VALUES (1, 'maria' , 'mundo' , 1 , '2022-07-05' , '2022-04-18 10:54:46' );
+INSERT INTO bibliotecas (id, nombre, libro, cantidad, fecha_nacimiento, fecha_registro) VALUES (2, 'jose' , 'egipto' , 2 , '2021-07-05', '2021-02-16 11:23:32');
+INSERT INTO bibliotecas (id, nombre, libro, cantidad, fecha_nacimiento, fecha_registro) VALUES (3, 'daniel' , 'profeta' , 1 , '2010-07-05', '1994-04-23 09:21:23');
